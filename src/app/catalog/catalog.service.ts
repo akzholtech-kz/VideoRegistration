@@ -38,6 +38,6 @@ export class CatalogService {
   }
   onDelete(index: number) {
      this.cameras.splice(index, 1);
-    console.log(this.cameras)
+    // console.log(this.cameras)
   }
 }
