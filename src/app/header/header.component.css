@@ -1,0 +1,11 @@
+@media (max-width: 500px) {
+.collapse, .navbar-collapse {
+      display: block;
+  }
+  .btn-mob{
+      display: block;
+  }
+}
+.btn-mob{
+    display:none;
+}

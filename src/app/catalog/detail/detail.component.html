@@ -1,0 +1,22 @@
+<div class="row">
+    <div class="col-xs-12">
+        <img [src]="deviceSelected.imagePath"
+         alt="{{deviceSelected.name}}"
+         class="img-responsive"
+         style="max-height: 200px;">
+    </div>
+</div>
+<div class="row">
+    <div class="col-xs-12">
+        <h1>{{deviceSelected.name}}</h1>
+        <p>  Description: {{deviceSelected.description}}</p>
+    </div>
+</div>
+<div class="row">
+    <div class="col-xs-12">
+        <button class="btn btn-primary" 
+        (click)="onAddToBasket()"
+        style="cursor: pointer;">Add to the basket</button>
+        <button class="btn btn-danger" (click)="onDelete()">Удалить</button>
+    </div>
+</div>

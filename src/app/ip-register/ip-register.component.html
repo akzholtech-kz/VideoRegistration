@@ -1,0 +1,23 @@
+<div class="row side">
+  <div class="col-xs-10">
+    <app-basket-detail></app-basket-detail>
+    <hr />
+    <div class="col-xs-6">
+      <ul class="list-group">
+        <a
+          class="list-group-item"
+          style="cursor: pointer"
+          *ngFor="let order of orders; let i = index"
+          (click)="onEditItem(i)"
+        >
+          {{ order.name }} - {{ order.amount }}
+          <span class="pull-right">{{ order.sum }}$</span>
+        </a>
+      </ul>
+      <div class="col-xs-12" style="font-weight: bolder;font-size: medium;">
+        Итог:
+        <span class="pull-right"> {{ totals }}$ </span>
+      </div>
+    </div>
+  </div>
+</div>

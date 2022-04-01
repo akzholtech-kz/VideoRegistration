@@ -1,0 +1,20 @@
+.row{
+    display: flex;
+    justify-content: center;
+    padding-left: 150px;
+}
+.col-xs-12{
+    margin-top: 10px;
+}
+@media (max-width:500px) {
+.row{
+    padding-left: 0;
+}
+.list-group{
+    width: 200px;
+}
+.col-xs-12{
+    width: 200px;
+}
+
+}

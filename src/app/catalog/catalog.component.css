@@ -1,0 +1,42 @@
+@media (max-width: 500px) {
+  table{
+    margin-top: 0;
+    font-size: smaller;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+  }
+  td{
+    padding: 5px 10px;
+    margin-bottom: 0;
+  }
+  .clearfix{
+    margin-bottom: 0;
+}
+  
+}
+
+table {
+  margin-top: 50px;
+  font-size:small;
+  border-collapse: collapse;
+  width: 100%;
+}
+tr{
+  
+  border-bottom: 1px solid #ddd;
+}
+td {
+  padding: 10px 15px;  
+}
+
+.clearfix{
+    margin-bottom: 10px;
+}
+
+tr:hover{
+    background-color:rgb(248, 247, 247);
+    transition: all ease 0.1s;
+}
+img{
+  height: 10px;
+}
