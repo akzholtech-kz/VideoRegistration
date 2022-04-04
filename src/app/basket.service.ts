@@ -6,9 +6,7 @@ import { Subject } from 'rxjs';
 export class BaskerService {
   startedEditing = new Subject<number>();
   selectedDev = new Subject<number>();
- private lists: Basket[] = [
-      new Basket('Cam-351GX',1, 500),
-       new Basket('Cam-351DX', 1, 500)];
+ private lists: Basket[] = [];
 
   getBasket() {
     return this.lists;
