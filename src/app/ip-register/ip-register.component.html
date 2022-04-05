@@ -6,7 +6,7 @@
       <table class="table">
         <tr>
           <th>#</th>
-          <th>Устройство</th>
+          <th class="div">Устройство</th>
           <th>Цена</th>
         </tr>
         </table>
@@ -18,14 +18,14 @@
           (click)="onEditItem(i)"
         >
          {{i+1}})  {{ order.name }} - {{ order.amount }}
-          <span class="pull-right">{{ order.sum }}$</span>
+          <span class="pull-right">{{ order.sum }}тг</span>
         </a>
       </ul>
       
       
       <div class="col-xs-12" style="font-weight: bolder;font-size: medium;">
         Итог:
-        <span class="pull-right"> {{ totals }}$ </span>
+        <span class="pull-right"> {{ totals }}тг </span>
       </div>
     </div>
   </div>

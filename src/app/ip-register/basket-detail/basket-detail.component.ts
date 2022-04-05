@@ -65,6 +65,7 @@ export class BasketDetailComponent implements OnInit, OnDestroy {
     
 
    this.bsService.selectedDev.next(this.total)
+   this.editMode = true;
   }
   ngOnDestroy(){
       this.subscription.unsubscribe();

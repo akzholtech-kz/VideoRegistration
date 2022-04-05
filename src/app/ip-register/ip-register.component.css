@@ -9,18 +9,34 @@
 .table{
     margin-bottom: 0;
 }
+.div{
+    padding-right: 35px;
+}
 @media (max-width:500px) {
 .row{
     padding-left: 0;
 }
-.list-group{
-    width: 200px;
+.list-group-item{
+    font-size: smaller;
+    margin-bottom: 1px;
 }
 .col-xs-12{
-    width: 200px;
+    width: 260px;
 }
 .table{
     margin-bottom: 0;
+}
+th {
+    padding-left: 10px;
+}
+.div{
+    padding-right: 92px;
+}
+.list-group-item{
+    width: 260px;
+}
+.table{
+    border-bottom: 1px solid #353535;
 }
 
 }

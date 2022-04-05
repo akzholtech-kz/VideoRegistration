@@ -8,7 +8,7 @@
 </div>
 <div class="row">
     <div class="col-xs-12">
-        <h1>{{deviceSelected.name}}</h1>
+        <h4><strong>{{deviceSelected.name}}</strong></h4>
         <p>  : {{deviceSelected.description}}</p>
     </div>
 </div>
@@ -17,6 +17,6 @@
         <button class="btn btn-primary" 
         (click)="onAddToBasket()"
         style="cursor: pointer;">Добавить в Корзину</button>
-        <!-- <button class="btn btn-danger" (click)="onDelete()">Удалить</button> -->
+        <button class="btn btn-danger" (click)="onDelete()">Удалить</button>
     </div>
 </div>
