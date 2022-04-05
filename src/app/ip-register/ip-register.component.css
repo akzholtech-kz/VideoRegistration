@@ -6,6 +6,9 @@
 .col-xs-12{
     margin-top: 10px;
 }
+.table{
+    margin-bottom: 0;
+}
 @media (max-width:500px) {
 .row{
     padding-left: 0;
@@ -15,6 +18,9 @@
 }
 .col-xs-12{
     width: 200px;
+}
+.table{
+    margin-bottom: 0;
 }
 
 }
