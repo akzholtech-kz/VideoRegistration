@@ -264,6 +264,122 @@ export class CatalogService {
       'https://www.intant.kz/upload/iblock/3ee/3ee4f93647a0489f5bb6dfae850234c7.jpg',
       [ new Basket('Hikvision DS-U18 (3,6 мм) Веб-камера 8 МП', 1, 99764)]
     ),
+    new Catalog(
+      'Hikvision iDS-7204HQHI-M1/FA Turbo HD TVI 4-х канальный  видеорегистратор AcuSense',
+      `Детекция и захват лица: 1 канал для захвата лиц
+      Аналоговый видеовход: 4 канала
+      IP видеовход: 1 канал до 6Мп (расширяется до 5)
+      Синхронное вопсроизведение: 4 каналаФильтрация ложных тревог: до 2х каналов
+      Компрессия: H.265 Pro+/H.265 Pro/H.265/H.264+/H.264
+      Способность декодирвоания: 
+      4 MP lite@15 fps; 1080p lite/720p/WD1/4CIF/VGA/CIF@25 fps (P)/30 fps (N)
+      3 MP/1080p/720p/VGA/WD1/4CIF/CIF@15 fps
+      1080p/720p@15 fps; VGA/WD1/4CIF/CIF@25 fps (P)/30 fps (N)
+      720p/VGA/WD1/4CIF/CIF@25 fps (P)/30 fps (N)
+      Интерфейс: 1, RJ45 10M/100M self-adaptive Ethernet interface
+      HDD: 1 SATA до 10Тб
+      Тревожные входы/выходы: НП
+      Питание: 12 VDC
+      Потребление: ≤ 18 W
+      Рабочая температура: от -10 до +55
+      Размер: 315 × 242 × 45 мм
+      Вес: ≤ 1.16 кг`,
+      'https://www.intant.kz/upload/iblock/e74/e7424d345ac834ae3dbe2b773d69bfff.jpg',
+      [ new Basket('Hikvision iDS-7204HQHI-M1/FA Turbo HD TVI 4-х канальный  видеорегистратор AcuSense', 1, 63205)]
+    ),
+    new Catalog(
+      'Hikvision DS-7204HGHI-F1(S), HD TVI видеорегистратор 4-х канальный',
+      `Компрессия: H.264+/H.264Когда 1080р lite включен: 720p/WD1/4CIF/VGA/CIF
+      Когда 1080р lite выключен: 1080p lite/720p/WD1/4CIF/VGA/CIF
+      Битрейт: 32 Kbps to 4 MbpsАудио компрессия: G.711u
+      Адио битрейт: 64 Kbps
+      IP камеры: 1 канал до 960p 
+      HD камеры: 4 канала до 1080р
+      Протоколы: TCP/IP, PPPoE, DHCP, Hik-Connect, DNS, DDNS, NTP, SADP, SMTP, NFS, iSCSI, UPnP™,
+      HTTPS
+      Интерфейс: 1, RJ45 10M/100M self-adaptive Ethernet interface
+      SATA: x1 до 6Тб
+      Питание: 12 VDC
+      Потребление: ≤ 8 W
+      Рабочая температура: -10 °C - 55 °C 
+      Размер: 260 × 222 × 45 мм
+      Вес: ≤ 1 кг`,
+      'https://www.intant.kz/upload/iblock/296/dvajsr67ye05e06tnaaaxh237bbpy3fz.jpg',
+      [ new Basket('Hikvision DS-7204HGHI-F1(S), HD TVI видеорегистратор 4-х канальный', 1, 34494)]
+    ),
+    new Catalog(
+      'HiLook NVR-104MH-D/W  IP сетевой видеорегистратор',
+      `IP видеовход: 4 канала до 4Мп
+      Входящая пропускная способность: 40 Мб/с
+      Исходящая пропускная способность: 60 Мб/с
+      Видеовыход: 1920 × 1080p/60Hz, 1280 × 1024/60Hz, 1280 × 720/60Hz, 1024 × 768/60Hz
+      Разрешение записи: 4 MP/3 MP/1080p/UXGA /720p/VGA/4CIF/DCIF/ 2CIF/CIF/QCIF
+      Синхронное воспроизведение: 4 канала
+      Декодирование: H.265+/H.265/ H.264+/H.264
+      Способность декодирования: 1-канал @ 4 MP / 2-канала @ 1080p
+      Воспроизведение: 4 MP/3 MP/1080p/UXGA /720p/VGA/4CIF/DCIF/ 2CIF/CIF/QCIF
+      HDD: 1 SATA до 6Тб
+      Протоколы: TCP/IP, DHCP, Hik-Connect, DNS, DDNS, NTP, SADP, SMTP,UPnP ™
+      Интерфейс: 4 RJ-45 10 / 100 Мб/с
+      PoE бюджет: ≤ 36W
+      PoE стандарт: IEEE 802.3 af/at
+      USB: 2 x USB 2.0
+      Питание: 48 VDC 
+      Потребление: ≤ 50 W
+      Рабочая температура: -10 oC ~ +55 oC
+      Размер: 260 × 225 × 48 мм
+      Вес: ≤ 1 кг`,
+      'https://www.intant.kz/upload/iblock/424/d8xh1sqyjpcww2d5xlu0ri8q1p52zl5t.jpg',
+      [ new Basket('HiLook NVR-104MH-D/W  IP сетевой видеорегистратор', 1, 24850)]
+    ),
+    new Catalog(
+      'HiLook NS-0106P-35 PoE свитч',
+      `Кол-во портов: 5
+      Тип портов: RJ45, 10/100 Base-T(X)Стандарт: IEEE 802.3, IEEE 802.3u, IEEE 802.3x
+      Размер таблицы MAC адресов: 1К
+      Коммутационная способность: 1 Gbps
+      Скорость передачи пакетов: 0.744 Mpps
+      Вес: 0.141 kg
+      Размер: 100 mm × 100 mm × 26 mm
+      Тип установки: настенный / настольный
+      Рабочая температура: (0 - 40) °C
+      Температура хранения: (-40 - 70) °C
+      Питание: 48 V DC, 0.8 A
+      PoE бюджет: 35 W
+      Потребление: < 38 W`,
+      'https://www.intant.kz/upload/iblock/ac5/k8j2yl6twi3qv56d4whz3pvfbe4h81tj.jpg',
+      [ new Basket('HiLook NS-0106P-35 PoE свитч', 1, 24704)]
+    ),
+    new Catalog(
+      'ST1000VX001 Жесткий диск 1Tb,5900RPM,3.5",SATA,SEAGATE',
+      `Жесткий диск, специально разработанный для систем видеонаблюдения. Применение:сетевые видеорегистраторы, встроенные цифровые видеорегистраторы, гибридные цифровые видеорегистраторы.Тип:HDD.  Линейка:SkyHawk. Форм-фактор HDD:3.5". Характеристики накопителя. Объем:1000 Гб. Объем буферной памяти:64 Мб. Подключение:SATA 6Gbit/s. Макс. постоянная скорость передачи данных по:180 Мб/с. Среднее время наработки на отказ:1000000 ч. Средняя потребляемая мощность при работе:5,6Вт. Размеры (ВхШхД):26.1x101.85x146.99 мм. Вес:415г.
+      В коробке 25 шт`,
+      'https://www.intant.kz/upload/iblock/d45/d4580c41108689baa5634b6cd25e7349.jpg',
+      [ new Basket('ST1000VX001 Жесткий диск 1Tb,5900RPM,3.5",SATA,SEAGATE', 1, 24980)]
+    ),
+    new Catalog(
+      'UTEPO SF6P-FHM Коммутатор 6-портовый неуправляемый, РоЕ',
+      `Технические характеристики:
+      6 портовый PoE коммутатор неуправляемый
+      4 порта 10/100Base-TX PoE RJ45 и 2 порта 10/100Base-TX Uplink RJ45
+      Поддержка MDI/MDIX, IEEE802.3af, IEEE 802.3at
+      Количество портов PoE: 4
+      Бюджет РОЕ: 60Вт
+      Режимы работы: Default, VLAN, CCTV
+      Расстояние передачи: 0~100м (режим DEFAULT/VLAN), 250м (режим CCTV 10Мбит/с)
+     Ethernet порты  4*10/100Base-TX (PoE), 2*10/100Base-TX
+     Потребляемая мощность (PoE) порты 1-4≤30W, всего≤60W
+     PoE протоколы   IEEE802.3af, IEEE 802.3at
+     Переключения    1.2Гбит/с
+     Скорость передачи пакетов   0.86Mpps
+     Размер таблицы (MАС)    2К
+     Питание DC 54V 1.11A
+     Рабочая температура 0℃~40℃
+     Вес, кг 0.216
+     Габаритные размеры, мм  122х92х25`,
+      'https://www.intant.kz/upload/iblock/977/977988e9a23ea9cd467fc51e76d6bc12.jpg',
+      [ new Basket('UTEPO SF6P-FHM Коммутатор 6-портовый неуправляемый, РоЕ', 1, 21067)]
+    ),
   ];
   //  private cameras: Catalog[] = [];
   setCamera(camerss: Catalog[]) {

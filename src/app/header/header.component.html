@@ -2,14 +2,23 @@
   <div class="container">
     <div class="container-fluid open">
       <div class="navbar-header">
-        <a routerLink="/main" class="navbar-brand logo">Главная</a>
+        <a routerLink="/main" class="navbar-brand logo"
+          ><img
+            src="./../../assets/images/logo.jpeg"
+            alt="logo"
+            class="img-responsive"
+            style="width: 100px;"
+        /></a>
       </div>
       <div class="collapse navbar-collapse">
         <ul class="nav navbar-nav">
-          <li routerLinkActive="active">
+          <li routerLinkActive="active" *ngIf="!isAuthenticated">
+            <a routerLink="/author">Регистрация</a>
+          </li>
+          <li routerLinkActive="active" *ngIf="isAuthenticated">
             <a routerLink="/catalog">Анaлоговое видео</a>
           </li>
-          <li routerLinkActive="active">
+          <li routerLinkActive="active" *ngIf="isAuthenticated">
             <a routerLink="/ip-register">IP регистр</a>
           </li>
           <li routerLinkActive="active">
@@ -18,7 +27,10 @@
           <li routerLinkActive="active"><a routerLink="/about">О Нас</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
-          <li class="dropdown" appDropDown>
+          <li *ngIf="isAuthenticated">
+            <a style="cursor: pointer" (click)="onLogOut()">Выйти</a>
+          </li>
+          <li class="dropdown" appDropDown *ngIf="isAuthenticated">
             <a class="dropdown-toggle" role="button" style="cursor: pointer"
               >Управление<span class="caret"></span
             ></a>
