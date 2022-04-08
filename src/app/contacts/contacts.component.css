@@ -1,3 +1,17 @@
 .col-xs-12{
     padding-left: 15px;
 }
+
+.social::before{
+    content: "";
+    position: absolute;
+    background-image: url(./../../assets/images/instagram-p.svg);
+    width: 16px;
+    height: 16px;
+    left: 15px;
+}
+.social{
+    padding-left: 24px;
+    color: #333333;
+    cursor: pointer;
+}
