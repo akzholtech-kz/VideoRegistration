@@ -56,6 +56,7 @@ export class BasketDetailComponent implements OnInit, OnDestroy {
   onDelete() {
     this.bsService.deleteItem(this.editIndexNum)
     this.onClear()
+    this.total = 0;
   }
   onTotal() {
     for(let i of this.orders){

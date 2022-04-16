@@ -1,3 +1,4 @@
+import { CatalogComponent } from './catalog/catalog.component';
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
@@ -8,7 +9,6 @@ import { AppComponent } from './app.component';
 import { AuthorComponent } from './author/author.component';
 import { UserInterceptor } from './author/user-interceptor.service';
 import { BaskerService } from './basket.service';
-import { CatalogComponent } from './catalog/catalog.component';
 import { CatalogService } from './catalog/catalog.service';
 import { DetailStartComponent } from './catalog/detail-start/detail-start.component';
 import { DetailComponent } from './catalog/detail/detail.component';
@@ -26,15 +26,15 @@ import { DropDownDirective } from './shared/dropdown.directive';
     AppComponent,
     HeaderComponent,
     MainComponent,
-    CatalogComponent,
     IpRegisterComponent,
     ContactsComponent,
     AboutComponent,
-    DetailComponent,
     DetailStartComponent,
     BasketDetailComponent,
     DropDownDirective,
     AuthorComponent,
+    DetailComponent,
+    CatalogComponent
   ],
   imports: [BrowserModule, FormsModule, HttpClientModule, AppRoutingModule],
   providers: [

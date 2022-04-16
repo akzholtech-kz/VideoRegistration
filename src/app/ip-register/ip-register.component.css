@@ -12,6 +12,12 @@
 .div{
     padding-right: 35px;
 }
+.total{
+    font-weight: bolder;font-size: medium;
+    border: 1px solid #353535;
+    border-radius: 2px;
+    padding: 5px;
+}
 @media (max-width:500px) {
 .row{
     padding-left: 0;

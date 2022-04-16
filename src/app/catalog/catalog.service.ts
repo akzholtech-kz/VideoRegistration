@@ -1,6 +1,5 @@
 import { Injectable } from '@angular/core';
 import { Subject } from 'rxjs';
-import { Basket } from '../basket.model';
 import { Catalog } from './../catalog.model';
 @Injectable()
 export class CatalogService {
@@ -18,6 +17,5 @@ export class CatalogService {
   }
   onDelete(index: number) {
     this.cameras.splice(index, 1);
-    // console.log(this.cameras)
   }
 }
